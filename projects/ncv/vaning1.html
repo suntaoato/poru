@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NärCon Vinter Våning 1</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<LINK href="vaning1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--<img class="map" src="gymnastiksalsbyggnaden.jpg" width="3082" height="3158" usemap="#gymnastik">
+<map name="gymnastik">
+<area href="#" title="SCEN" shape="rect" coords="5, 55, 1019, 2121">
+</map>-->
+<script>
+$(function() {
+    $('.toggle').click(function() {   
+        if( $(this).hasClass('off') ) {
+            $(this).animate({ opacity:0.6 }, 1000).removeClass('off').addClass('on');
+        } else {
+            $(this).animate({ opacity:0 }, 1000).removeClass('on').addClass('off');
+        }       
+    });
+});
+</script>
+<ul id="vaning1">
+</ul>
+</body>
+</html>

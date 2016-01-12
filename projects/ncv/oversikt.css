@@ -1,0 +1,284 @@
+#oversikt {
+position: relative;
+width: 1280px;
+height: 1024px;
+background: #5ae url('oversikt.jpg') no-repeat;
+padding: 0;
+}
+#oversikt li {
+display: block;
+position: absolute;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#oversikt a {
+display: block;
+text-indent: -9999px;
+text-decoration: none;
+outline: none;
+cursor: default;
+}
+.transparent_class {
+	opacity: 0.6;
+}
+#korridor {
+left: 205px;
+top: 505px;
+}
+#korridor a {
+background-color: #0F0;
+width: 700px;
+height: 30px;
+}
+#korridor a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#o {
+left: 104px;
+top: 524px;
+}
+#o a {
+background-color: #0F0;
+width: 79px;
+height: 142px;
+}
+#o a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#v {
+left: 307px;
+top: 424px;
+}
+#v a {
+background-color: #0F0;
+width: 65px;
+height: 86px;
+}
+#v a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#n {
+left: 214px;
+top: 538px;
+}
+#n a {
+background-color: #0F0;
+width: 58px;
+height: 125px;
+}
+#n a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#l {
+left: 215px;
+top: 670px;
+}
+#l a {
+background-color: #0F0;
+width: 159px;
+height: 42px;
+}
+#l a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#q {
+left: 292px;
+top: 565px;
+}
+#q a {
+background-color: #0F0;
+width: 23px;
+height: 79px;
+}
+#q a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#m {
+left: 313px;
+top: 541px;
+}
+#m a {
+background-color: #0F0;
+width: 60px;
+height: 113px;
+}
+#m a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#s {
+left: 413px;
+top: 328px;
+}
+#s a {
+background-color: #0F0;
+width: 196px;
+height: 181px;
+}
+#s a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#k {
+left: 419px;
+top: 541px;
+}
+#k a {
+background-color: #0F0;
+width: 73px;
+height: 110px;
+}
+#k a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#j {
+left: 542px;
+top: 542px;
+}
+#j a {
+background-color: #0F0;
+width: 68px;
+height: 127px;
+}
+#j a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#h {
+left: 421px;
+top: 671px;
+}
+#h a {
+background-color: #0F0;
+width: 201px;
+height: 40px;
+}
+#h a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#y {
+left: 638px;
+top: 542px;
+}
+#y a {
+background-color: #0F0;
+width: 36px;
+height: 167px;
+}
+#y a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#g {
+left: 690px;
+top: 539px;
+}
+#g a {
+background-color: #0F0;
+width: 59px;
+height: 153px;
+}
+#g a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#f {
+left: 726px;
+top: 667px;
+}
+#f a {
+background-color: #0F0;
+width: 110px;
+height: 39px;
+}
+#f a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#d {
+left: 843px;
+top: 539px;
+}
+#d a {
+background-color: #0F0;
+width: 58px;
+height: 171px;
+}
+#d a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#e {
+left: 878px;
+top: 667px;
+}
+#e a {
+background-color: #0F0;
+width: 151px;
+height: 40px;
+}
+#e a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#b {
+left: 993px;
+top: 575px;
+}
+#b a {
+background-color: #0F0;
+width: 60px;
+height: 91px;
+}
+#b a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#c {
+left: 992px;
+top: 530px;
+}
+#c a {
+background-color: #0F0;
+width: 143px;
+height: 43px;
+}
+#c a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#i {
+left: 1086px;
+top: 589px;
+}
+#i a {
+background-color: #0F0;
+width: 73px;
+height: 49px;
+}
+#i a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#a {
+left: 1032px;
+top: 659px;
+}
+#a a {
+background-color: #0F0;
+width: 123px;
+height: 48px;
+}
+#a a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}

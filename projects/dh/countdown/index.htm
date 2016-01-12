@@ -1,0 +1,75 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>
+  <meta charset="utf-8" />  
+  <title>{{title}}</title>  
+  <link href="css/styles.css" media="all" rel="stylesheet" type="text/css" />
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="" /> 
+</head>  
+<body>
+<div class="flip_board">
+  <div class="flip">
+    <h2 class="title">DAYS</h2>
+    <span class="value" id="days">00</span>
+  </div>
+  <div class="flip">
+    <h2 class="title">HOURS</h2>
+    <span class="value" id="hours">00</span>
+  </div>
+  <div class="flip">
+    <h2 class="title">MINS</h2>
+    <span class="value" id="mins">00</span>
+  </div>
+
+  <ul>
+    <li><img src="images/icon_calendar.png" width="32" height="32" alt="Calendar" />6.08.2011</li>
+    <li><img src="images/icon_clock.png" width="32" height="32" alt="Clock" />13:00</li>
+    <li><img src="images/icon_map.png" width="32" height="32" alt="Map" />Parafia Św. Jerzego, Goczałkowice<a href="http://maps.google.com/maps/ms?ie=UTF&msa=0&msid=200429645267533601471.0004a7b424fa38949c060" class="map">(Google Maps)</a></li>
+  </ul>
+
+  <div class="desc">
+  </div>
+</div>
+
+<div id="bg_gradient"></div>
+<img src="images/bg_pic.png" alt="" id="bg" />
+
+<script>
+  function twoDigits(x)
+  {
+    var res = "";
+    x.toString().length == 1 ? res = "0"+x: res = x;
+    return res;  
+  }
+
+  // --- remove --- 
+  var _tmp = new Date();
+  var deadline = new Date();
+  deadline.setDate(_tmp.getDate()+30);
+  // --- end --- 
+  // remove these lines
+
+  //var deadline = new Date("August 6, 2011 13:00:00");
+  var today = new Date();
+
+  var days_full = (deadline - today) / (24*3600*1000);
+  var days = twoDigits(parseInt(days_full));
+
+  var hours_full = (days_full - days) * 24;
+  var hours = twoDigits(parseInt(hours_full));
+
+  var mins_full = (hours_full - hours) * 60;
+  var mins = twoDigits(parseInt(mins_full));
+
+  var counter = {}
+  counter.days = days;
+  counter.hours = hours;
+  counter.mins = mins;
+
+  document.getElementById("days").innerHTML = counter.days;
+  document.getElementById("hours").innerHTML = counter.hours;
+  document.getElementById("mins").innerHTML = counter.mins;
+</script>
+</body>
+</html>

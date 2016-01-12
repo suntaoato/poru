@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NärCon Vinter Översikt</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<LINK href="oversikt.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--<img class="map" src="gymnastiksalsbyggnaden.jpg" width="3082" height="3158" usemap="#gymnastik">
+<map name="gymnastik">
+<area href="#" title="SCEN" shape="rect" coords="5, 55, 1019, 2121">
+</map>-->
+<script>
+$(function() {
+    $('.toggle').click(function() {   
+        if( $(this).hasClass('off') ) {
+            $(this).animate({ opacity:0.6 }, 1000).removeClass('off').addClass('on');
+        } else {
+            $(this).animate({ opacity:0 }, 1000).removeClass('on').addClass('off');
+        }       
+    });
+});
+</script>
+<ul id="oversikt">
+<li id="korridor" class="transparent_class toggle off"><a href="#">Korridor</a></li>
+<li id="o" class="transparent_class toggle off"><a href="#">O</a></li>
+<li id="v" class="transparent_class toggle off"><a href="#">V</a></li>
+<li id="n" class="transparent_class toggle off"><a href="#">N</a></li>
+<li id="l" class="transparent_class toggle off"><a href="#">L</a></li>
+<li id="q" class="transparent_class toggle off"><a href="#">Q</a></li>
+<li id="m" class="transparent_class toggle off"><a href="#">M</a></li>
+<li id="s" class="transparent_class toggle off"><a href="#">S</a></li>
+<li id="k" class="transparent_class toggle off"><a href="#">K</a></li>
+<li id="j" class="transparent_class toggle off"><a href="#">J</a></li>
+<li id="h" class="transparent_class toggle off"><a href="#">H</a></li>
+<li id="y" class="transparent_class toggle off"><a href="#">Y</a></li>
+<li id="g" class="transparent_class toggle off"><a href="#">G</a></li>
+<li id="f" class="transparent_class toggle off"><a href="#">F</a></li>
+<li id="d" class="transparent_class toggle off"><a href="#">D</a></li>
+<li id="e" class="transparent_class toggle off"><a href="#">E</a></li>
+<li id="b" class="transparent_class toggle off"><a href="#">B</a></li>
+<li id="c" class="transparent_class toggle off"><a href="#">C</a></li>
+<li id="i" class="transparent_class toggle off"><a href="#">I</a></li>
+<li id="a" class="transparent_class toggle off"><a href="#">A</a></li>
+</ul>
+</body>
+</html>

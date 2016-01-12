@@ -1,0 +1,50 @@
+#scen {
+position: relative;
+width: 3082px;
+height: 3158px;
+background: #5ae url('gymnastiksalsbyggnaden.jpg') no-repeat;
+padding: 0;
+}
+#scen li {
+display: block;
+position: absolute;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#scen a {
+display: block;
+text-indent: -9999px;
+text-decoration: none;
+outline: none;
+cursor: default;
+}
+#scenen {
+left: 5px;
+top: 55px;
+}
+#scenen a {
+width: 1014px;
+height: 2066px;
+}
+#scenen a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+#LB4 {
+left: 1297px;
+top: 55px;
+}
+#LB4 a {
+background-color: #0F0;
+width: 487px;
+height: 432px;
+}
+#LB4 a:hover {
+	background-color: #000;
+	opacity: 0.5;
+}
+.transparent_class {
+	opacity: 0.6;
+	background-color: #0F0;
+}
