@@ -1,2 +1,2 @@
-# poru
-website
+# Website
+Personal portfolio and hobby project. 
